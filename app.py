@@ -36,8 +36,8 @@ wiki_settings = {}
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('Njld6qW7PBK7VU6+vXvt69kLjbS8KQ0dhXQ6crmQVpj/wy94eLgRDDEpi+Hus/eUuKqjOhEqlAJ3m3yrv6es68ui2exmrH57ssvEJsx1ZEdxpB8JUng3h+hPGLj0mveJ3YZYaWh3bCzfNszmsWfdiwdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('b832b267d6246cf977e7dce943d6b30a')
+line_bot_api = LineBotApi('rHTAmvpJ5VWddwHReaJbdu6tApKtDs4Y6wtrN6ceDS7pMjgATl9Djo8p0TO61lOX1hxjxs1oLv+W7c89udkO+jNkdLw9cd6LzbafdptMZr5XdI1SbaRw1/j7o3XX05rpR51w33dq6gGDVX/P5L0neAdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('6a6ab57258300b6699d0074186ee968f')
 
 static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp')
 
